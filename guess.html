@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./guess.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3><center>請輸入四個不重複的數字</center></h3>
+    <p><center>
+        <input type="tel" id="number-input" maxlength="4" >
+    </center></p>
+
+    <p><center>
+        <button id="submit-btn">
+            Check the answer
+        </button>
+        <button onclick="javascript:window.location.reload()">Re-start</button>
+        </center>
+        
+    </p>
+
+<p>
+    <center>
+        <span id="result-span"></span>
+    </center>
+</p>
+
+    <script src="./guess.js"></script>
+</body>
+</html>
